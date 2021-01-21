@@ -19,5 +19,6 @@ install.packages("McSpatial", repos = "https://cloud.r-project.org/", dependenci
 install.packages("GWmodel", repos = "https://cloud.r-project.org/", dependencies=TRUE)
 install.packages("splm", repos = "https://cloud.r-project.org/", dependencies=TRUE)
 install.packages("spsur", repos = "https://cloud.r-project.org/", dependencies=TRUE)
+install.packages("RColorBrewer", repos = "https://cloud.r-project.org/", dependencies=TRUE)
 #install.packages("ggthemes", repos = "https://cloud.r-project.org/", dependencies=TRUE)
 #install.packages("ggstatsplot", repos = "https://cloud.r-project.org/", dependencies=TRUE)
