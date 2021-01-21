@@ -1,6 +1,6 @@
 ## Open notebooks for learning data science with R studio
 
-RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/quarcs-lab/r-env/main?urlpath=rstudio)
+RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/quarcs-lab/r-spatial-env/main?urlpath=rstudio)
 
 
 ## Permanent Online Environment
