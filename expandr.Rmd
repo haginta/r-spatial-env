@@ -14,21 +14,12 @@ always_allow_html: true
 suppressWarnings(suppressMessages({
   library(knitr)
   library(kableExtra)
-  library(ggplot2)
-  library(dplyr)
-  library(readr)
-  library(tidyr)
-  library(stargazer)
-  library(haven)
   library(htmltools)
+  library(tidyverse)
   library(scales)
   library(ExPanDaR)
-  library(skimr)
 }))
 knitr::opts_chunk$set(fig.align = 'center')
-
-theme_set(theme_minimal())
-
 ```
  
  
@@ -36,18 +27,18 @@ theme_set(theme_minimal())
 
 
 ```{r}
-dat <- read.csv("https://raw.githubusercontent.com/quarcs-lab/mendez2020-convergence-clubs-code-data/master/assets/dat.csv")
+dat <- read_csv("https://raw.githubusercontent.com/quarcs-lab/mendez2020-convergence-clubs-code-data/master/assets/dat.csv")
 ```
 
 ```{r}
 dat %>%
- skim()
+ glimpse()
 ```
 
 
 ```{r}
 # Import data definitions
-dat_def <- read.csv("https://raw.githubusercontent.com/quarcs-lab/mendez2020-convergence-clubs-code-data/master/assets/dat-definitions.csv")
+dat_def <- read_csv("https://raw.githubusercontent.com/quarcs-lab/mendez2020-convergence-clubs-code-data/master/assets/dat-definitions.csv")
 ```
 
 ```{r}
