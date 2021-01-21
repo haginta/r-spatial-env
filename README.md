@@ -2,26 +2,12 @@
 
 RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/quarcs-lab/r-env/main?urlpath=rstudio)
 
-RShiny: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/quarcs-lab/r-env/main?urlpath=shiny/bus-dashboard/)
-
-
 
 ## Permanent Online Environment
 
 The notebooks can be executed online at [GESIS Notebooks](https://notebooks.gesis.org). Just copy the URL of this repository and paste it on the [BINDER form](https://notebooks.gesis.org/binder/)
 
 - To open a virtual R Studio session, make sure you change you click on `File` and change it to `URL`. Then, write `rstudio` in the field `URL to open (optional)`. Finally, click on `launch`.  
-
-
-
-This environment contains the package `ExPanDaR` and its dependencies
-
-- https://cran.r-project.org/web/packages/ExPanDaR/index.html
-- https://joachim-gassen.github.io/ExPanDaR/
-- https://joachim-gassen.github.io/ExPanDaR/reference/index.html
-- https://cran.r-project.org/web/packages/ExPanDaR/vignettes/ExPanD_notebook.html
-- https://cran.r-project.org/web/packages/ExPanDaR/vignettes/ExPanDaR-functions.html
-- https://cran.r-project.org/web/packages/ExPanDaR/vignettes/use_ExPanD.html
 
 
 Binder supports using R and RStudio, with libraries pinned to a specific
